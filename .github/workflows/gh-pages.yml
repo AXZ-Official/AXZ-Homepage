@@ -30,7 +30,7 @@ jobs:
 
     # package.jsonに基づき依存パッケージをインストールする
     - name: install
-      run: yarn install --production
+      run: yarn install
 
     # Next.jsアプリをビルドする
     # プロジェクトルート直下に.nextディレクトリができる
