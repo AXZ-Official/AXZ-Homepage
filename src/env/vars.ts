@@ -1,5 +1,5 @@
 const Vars = {
-  siteTitle: "Az公式サイト",
+  siteTitle: "Az-Community 公式サイト",
 };
 
 export default Vars;

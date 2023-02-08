@@ -10,6 +10,11 @@ const HeaderNavContents: HeaderNavContentType[] = [
     url: "/",
     id: "home",
   },
+  {
+    name: "PRIVACY POLICY",
+    url: "/privacy",
+    id: "privacyPolicy",
+  }
 ];
 
 export default HeaderNavContents;

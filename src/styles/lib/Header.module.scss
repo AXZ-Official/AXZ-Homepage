@@ -1,15 +1,21 @@
 .header {
-  height: 80px;
+  height: var(--header-height);
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: var(--dark-090);
-  box-shadow: 5px 5px 0px 10px var(black);
+  box-shadow: 0 -15px 15px 10px black;
+  position: fixed;
+
+  a {
+    color: white;
+  }
 
   .siteTitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .headerNav {
@@ -17,8 +23,12 @@
       padding: 0;
       margin: 0;
 
+      display: flex;
+      flex-direction: row-reverse;
+
       li {
         list-style: none;
+        margin: 0 13px;
       }
     }
   }

@@ -19,6 +19,7 @@ const colors: string[] = [
 const TemplatePage: FC<{}> = () => {
   return (
     <Layout>
+      <h1>Color Test Page</h1>
       {colors.map((color) => {
         return <div key={color} className={`${styles.colorBlock} back-${color}`}>{color}</div>;
       })}
