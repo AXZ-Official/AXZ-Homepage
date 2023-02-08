@@ -14,7 +14,7 @@ const Header: FC<{}> = ({}) => {
         <ul>
           {HeaderNavContents.map((value) => {
             return (
-              <li>
+              <li key={value.id}>
                 <Link href={value.url}>{value.name}</Link>
               </li>
             );

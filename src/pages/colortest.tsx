@@ -20,7 +20,7 @@ const TemplatePage: FC<{}> = () => {
   return (
     <Layout>
       {colors.map((color) => {
-        return <div className={`${styles.colorBlock} back-${color}`}>{color}</div>;
+        return <div key={color} className={`${styles.colorBlock} back-${color}`}>{color}</div>;
       })}
     </Layout>
   );
