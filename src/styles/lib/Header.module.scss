@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--dark-090);
+  box-shadow: 5px 5px 0px 10px var(black);
+
+  .siteTitle {
+    font-size: 1.5rem;
+  }
+
+  .headerNav {
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style: none;
+      }
+    }
+  }
+}

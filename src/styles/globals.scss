@@ -1,0 +1,97 @@
+:root {
+  --dark-100: #17171a;
+  --dark-090: #232326;
+  --dark-080: #2a2a2e;
+  --dark-070: #35353b;
+  --dark-060: #46464e;
+  --dark-050: #5c5c65;
+  --gray-060: #787882;
+  --gray-070: #92929d;
+  --gray-080: #a6a6b0;
+  --gray-090: #bdbdca;
+  --gray-100: #d4d4df;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background: var(--dark-100);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main.wrapper {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.back-dark-100 {
+  background-color: var(--dark-100);
+}
+
+.back-dark-090 {
+  background-color: var(--dark-090);
+}
+
+.back-dark-080 {
+  background-color: var(--dark-080);
+}
+
+.back-dark-070 {
+  background-color: var(--dark-070);
+}
+
+.back-dark-060 {
+  background-color: var(--dark-060);
+}
+
+.back-dark-050 {
+  background-color: var(--dark-050);
+}
+
+.back-gray-060 {
+  background-color: var(--gray-060);
+}
+
+.back-gray-070 {
+  background-color: var(--gray-070);
+}
+
+.back-gray-080 {
+  background-color: var(--gray-080);
+}
+
+.back-gray-090 {
+  background-color: var(--gray-090);
+}
+
+.back-gray-100 {
+  background-color: var(--gray-100);
+}
