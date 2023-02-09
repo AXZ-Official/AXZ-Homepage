@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const TemplatePage: FC<{}> = () => {
   return (
-    <Layout>
+    <Layout pageTitle="プライバシーポリシー">
       <h1>プライバシーポリシー</h1>
       <p>当サイトでは、アクセス解析サービス「Googleアナリティクス」を使用しています。</p>
       <p>Googleアナリティクスはデータの収集のためにCookieを使用しています。</p>
