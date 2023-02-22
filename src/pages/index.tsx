@@ -10,15 +10,15 @@ const HomePage: FC<{}> = () => {
       <h1>{Vars.siteTitle} へようこそ</h1>
       <div className={styles.wrapper}>
         <div>
-          <h2>AXX とは</h2>
+          <h2>AXZ とは</h2>
           <p>
             AXZ
-            は色々な人が集まって雑談などをするDiscordサーバーです。
+            は『れいな』により創設された組織です。
           </p>
           <p>2023年に誕生しました。</p>
         </div>
         <div>
-          <h2>サーバーに参加</h2>
+          <h2>Discordサーバーに参加</h2>
           <p className={styles.button}><Link href="/join">招待コードを取得！</Link></p>
         </div>
         <div></div>
