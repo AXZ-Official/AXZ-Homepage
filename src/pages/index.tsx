@@ -10,10 +10,10 @@ const HomePage: FC<{}> = () => {
       <h1>{Vars.siteTitle} へようこそ</h1>
       <div className={styles.wrapper}>
         <div>
-          <h2>Az-Community とは</h2>
+          <h2>AXX とは</h2>
           <p>
-            Az-Community
-            は病んでる人と暇な人が集まって雑談するディスコードサーバーです。
+            AXZ
+            は色々な人が集まって雑談などをするDiscordサーバーです。
           </p>
           <p>2023年に誕生しました。</p>
         </div>
