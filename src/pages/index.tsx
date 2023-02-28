@@ -4,14 +4,6 @@ import Vars from "../env/vars";
 import styles from "../styles/pages/Index.module.scss";
 import Link from "next/link";
 
-<head prefix="og: https://ogp.me/ns#">
-<meta property="og:url" content="https://az-jp.github.io/AXZ-Homepage" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="AXZ公式ホームページ" />
-<meta property="og:description" content="AXZの最新情報などをお届けします。" />
-<meta property="og:site_name" content="" />
-<meta property="og:image" content="https://images-ext-2.discordapp.net/external/GSzGN7MNnUkEdaEsBTVwZ68rQFo7-80eePJYb6876Ro/%3Fsize%3D256/https/cdn.discordapp.com/avatars/1057957733506220062/c85e0d389fe7c89d80060657eafcdecc.png" />
-
 const HomePage: FC<{}> = () => {
   return (
     <Layout>
